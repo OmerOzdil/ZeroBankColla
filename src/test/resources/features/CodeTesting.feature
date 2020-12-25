@@ -6,6 +6,7 @@ Feature: Navigating to specific accounts in Account Activity
     And The page should the title "Zero - Account Activity"
     And Account drop down should have "Savings" selected
 
+
   Scenario: Loan Account redirect
     Given The user logged in with "username" "password"
     When the user clicks on "Loan" link on the Account Summary Page
