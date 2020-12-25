@@ -29,7 +29,7 @@ Feature: Navigating to specific accounts in Account Activity
     Given The user logged in with "username" "password"
     When the user clicks on "Loan" link on the Account Summary Page
     Then The page should the title "Zero - Account Activity"
-    And Account drop down should have "Loan" select
+    And Account drop down should have "Loan" selected
 
     
       
